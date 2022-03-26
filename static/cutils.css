@@ -1,0 +1,74 @@
+.text-atuo-break{
+    overflow: hidden;
+    white-space: normal;
+    word-break: break-all;
+}
+.align-center{
+  text-align: center;
+}
+.text-no-break{
+  white-space: normal;
+  word-break: keep-all;
+}
+.text-elipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.text-elipsis-2{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.text-elipsis-3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.text-elipsis-4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.text-elipsis-5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.v-top{
+  display: grid;
+  align-items: start;
+}
+.v-center{
+  display: grid;
+  align-items: center;
+}
+.v-end{
+  display: grid;
+  align-items: end;
+}
+.h-start{
+  display: grid;
+  justify-items: start;
+}
+.h-center{
+  display: grid;
+  justify-items: center;
+}
+.h-end{
+  display: grid;
+  justify-items: end;
+}
+
